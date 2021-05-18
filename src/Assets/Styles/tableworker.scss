@@ -1,0 +1,41 @@
+.table_in_tableWorker {
+  display: flex;
+  margin: 0;
+  margin-top: 30px;
+  padding: 0;
+  background: none;
+  border: none;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-image: none;
+}
+
+.bop {
+  display: flex;
+  justify-content: space-around;
+  user-select: none;
+  text-align: center;
+  padding: 3px 0px;
+  border: 1px solid;
+  min-height: 30px;
+  background-color: #ffffff;
+}
+
+._active_bops {
+  background-color: aqua;
+}
+
+._height {
+  font-weight: bold;
+  border: 2px solid;
+}
+
+._last_in_day {
+  border-bottom: 2px solid;
+}
+
+.bop_inner {
+  display: flex;
+  width: 25%;
+  height: 100%;
+}

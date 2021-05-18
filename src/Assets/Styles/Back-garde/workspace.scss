@@ -1,0 +1,16 @@
+.workflow_menu {
+  display: flex;
+  max-width: 100rem;
+  .w_menu_item {
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+    width: 10rem;
+  }
+  .w_menu_item:hover {
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+    width: 10rem;
+  }
+}

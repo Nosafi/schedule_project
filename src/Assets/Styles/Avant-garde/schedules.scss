@@ -1,0 +1,43 @@
+.vertical_items_holder {
+  .brandButton {
+    margin: auto;
+    width: 15%;
+  }
+  .vertical_item {
+    .vert_hor_item_desc {
+      .brand-h5 {
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
+
+.pr_holder {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 0.15rem;
+  margin: 0;
+}
+.item_holder_small {
+  padding: 0 0.5rem;
+}
+
+.colorLegend {
+  content: "";
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  margin: 0 0.25rem;
+  border: 1px solid black;
+  border-radius: 0.15rem;
+}
+._weekly {
+  background: rgba(123, 158, 235, 0.35);
+}
+._odd {
+  background: rgba(198, 223, 91, 0.25);
+}
+._even {
+  background: rgba(183, 35, 59, 0.25);
+}
